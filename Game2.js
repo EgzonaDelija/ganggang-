@@ -2,13 +2,6 @@ let playerScore = 0;
 let computerScore = 0;
 let rounds = 0;
 
-
-
-REMOVE THIS LINE OF CODE 
-
-
-
-
 process.stdout.write("Välj sten, sax eller påse (bäst av 3): ");
 
 process.stdin.on('data', function(input) {
